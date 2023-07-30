@@ -150,7 +150,6 @@ form input[type="submit"]:hover {
 .active {
     background-color: var(--main-color);
     border-radius: 1rem;
-    transition: opacity 1s ease-out;
 }
 
 /* by default signup hidden */
