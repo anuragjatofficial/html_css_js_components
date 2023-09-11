@@ -102,7 +102,6 @@ function Editor(props) {
 function Previewer(props) {
   return (
     <div
-      id="preview"
       className=""
       style={{ backgroundColor: '#FFFFFF44', backgroundBlur: '20px', width: '40%', height: '90vh', marginRight: '5%', borderRadius: '10px', boxShadow:'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} 
      
@@ -121,6 +120,7 @@ function Previewer(props) {
         </h2>
       </div>
       <div
+        id="preview"
         dangerouslySetInnerHTML={{
           __html: marked(props.text[0], { renderer: renderer }),
         }}
@@ -154,9 +154,6 @@ Fulfill the below user stories and get all of the tests to pass. Use whichever l
 
 You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-User Story #1: I can see a textarea element with a corresponding 
-
-User Story #2: I can see an element with a corresponding .
 
 User Story #3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
 
