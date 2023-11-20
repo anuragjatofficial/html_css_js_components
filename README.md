@@ -1,6 +1,6 @@
 # HTML CSS JS Components Repository
 
-Welcome to the HTML CSS JS Components repository! This collection of components is created by [Your Name]. These components, built using HTML, CSS, and JavaScript, are designed to be easily customizable and can be integrated into your web projects.
+Welcome to the HTML CSS JS Components repository! This collection of components is created by [Anurag Choudhary](https://github.com/anuragjatofficial). These components, built using HTML, CSS, and JavaScript, are designed to be easily customizable and can be integrated into your web projects.
 
 ## Folder Structure
 
